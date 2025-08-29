@@ -1,0 +1,15 @@
+# Ignora metadati di build
+*.egg-info/
+
+# Ignora cache python
+__pycache__/
+*.pyc
+
+# Ignora virtualenv
+.venv/
+venv/
+env/
+
+# Ignora cartelle di build
+build/
+dist/
