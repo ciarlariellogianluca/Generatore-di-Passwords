@@ -15,3 +15,4 @@ Genera una password lunga 16 caratteri (default):
 ```bash
 python3 secure_password_generator.py
 # Generatore-di-Passwords
+# Generatore-di-Passwords
