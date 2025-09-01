@@ -1,4 +1,0 @@
-# file: /mnt/c/Users/ciarl/Desktop/progetto/progetto/secure_password_generator.py
-# hypothesis_version: 6.138.12
-
-[0.0, '--allow-ambiguous', '--count', '--length', '--no-digits', '--no-lower', '--no-symbols', '--no-upper', '--verbose', '-c', '-l', '-v', 'Categorie attive: %d', 'Errore: %s', 'Esclude cifre', 'Esclude simboli', 'Il1O0o|`~\'" ', 'Lunghezza password', 'Password: %s', 'PasswordPolicy', '__main__', 'build_full_pool', 'build_parser', 'generate_password', 'main', 'store_true']
