@@ -18,44 +18,36 @@ Questa applicazione, scritta in Python, genera password robuste utilizzando il m
 git clone https://github.com/TUO_USER/progetto.git
 cd progetto
 pip install .
-Da pacchetto (wheel/sdist)
-bash
+```
+### Da pacchetto (wheel/sdist)
+```bash
 Copia codice
 pip install dist/progetto-0.1.0-py3-none-any.whl
-Da Docker
-bash
-Copia codice
-docker build -t genpw .
-docker run --rm genpw -l 20 -c 3
- Utilizzo CLI
-Genera una password di 16 caratteri (default):
+```
 
-bash
+## Utilizzo CLI
+Genera una password di 16 caratteri (default): 
+```bash
 Copia codice
 genpw
+```
 Genera 5 password di 20 caratteri:
-
-bash
+```bash
 Copia codice
 genpw -l 20 -c 5
+```
 Escludi i simboli:
-
-bash
+```bash
 Copia codice
 genpw --no-symbols
+```
 Permetti caratteri ambigui:
-
-bash
+```bash
 Copia codice
 genpw -l 24 --allow-ambiguous
+```
 Attiva modalità verbosa (log di debug):
-
-bash
+```bash
 Copia codice
 genpw -l 16 -v
-🐳 Docker
-Esegui direttamente da container:
-
-bash
-Copia codice
-docker run --rm tuousername/genpw:latest -l 24 -c 3
+```
