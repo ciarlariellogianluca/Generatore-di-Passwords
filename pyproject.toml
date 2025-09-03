@@ -9,7 +9,7 @@ description = "Generatore di password sicure da linea di comando."
 requires-python = ">=3.8"
 
 [project.scripts]
-genpw = "progetto.secure_password_generator:main"
+genpw = "progetto:main"
 
 [tool.setuptools.packages.find]
 where = ["."]

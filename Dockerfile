@@ -15,4 +15,4 @@ RUN ["python","-m", "pip", "install", "requests"]
 RUN ["python","-m", "pip", "install", "progetto-0.1.0-py3-none-any.whl"]
 
 # mando in esecuzione l'applicazione in maniera automatica
-ENTRYPOINT ["genpw", "--log-level", "WARNING"]
+ENTRYPOINT ["genpw"]

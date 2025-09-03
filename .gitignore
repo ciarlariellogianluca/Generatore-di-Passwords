@@ -1,15 +1,40 @@
-# Ignora metadati di build
+# Metadati di build
 *.egg-info/
+*.egg
+.eggs/
 
-# Ignora cache python
+# Cache Python
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
 
-# Ignora virtualenv
+# Virtualenv
 .venv/
 venv/
 env/
 
-# Ignora cartelle di build
+# Cartelle di build/distribuzione
 build/
 dist/
+pip-wheel-metadata/
+
+# Configurazioni IDE/editor
+.vscode/
+.idea/
+*.swp
+
+# Coverage e testing
+.coverage
+coverage.xml
+htmlcov/
+.hypothesis/
+.pytest_cache/
+
+# Log
+*.log
+
+# File temporanei
+*.tmp
+*.bak
+*.orig

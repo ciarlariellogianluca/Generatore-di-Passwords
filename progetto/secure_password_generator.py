@@ -245,13 +245,14 @@ def main(argv: Sequence[str] | None = None) -> None:
 
         for idx in range(int(args.count)):
             pwd = generate_password(length=int(args.length), policy=policy)
-            # INFO: output “utile” all’utente
-            logger.info("Password: %s", pwd)
+            # le password vanno su stdout
+            print(pwd)
 
             # DEBUG: dettagli tecnici (solo in verbose)
             if args.count == 1 and idx == 0:
                 entropy = estimate_entropy_bits(len(pwd), pool_size)
                 logger.debug("Entropia ≈ %.1f bit (pool=%s)", entropy, pool_size)
+
     except ValueError as err:
         logger.error("Errore: %s", err)
         parser.error(str(err))
